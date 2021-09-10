@@ -11,6 +11,7 @@ For each storm in the training and test sets, you are given a time-series of ima
 Approach:
 
 Ensemble of best performing individual models which use both temporal and spacial data inputs.
+
 Score Root-mean-square Error : 6.8585
 
 1. Model:
