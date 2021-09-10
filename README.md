@@ -11,11 +11,14 @@ For each storm in the training and test sets, you are given a time-series of ima
 Approach:
 
 Ensemble of best performing individual models which use both temporal and spacial data inputs.
+Score Root-mean-square Error : 6.8585
 
 1. Model:
 Torchvisions 18 layer Resnet3D using the last 24 satellite images and information on ocean location and time.
 In addition for the final prediction an ensemble of the 5 best checkpoints in combination of 6 folds of the best checkpoint with randomly rotated satellite imagery was used. 
+Score Root-mean-square Error : 7.1589
 
 2. Model:
-EfficientNetB0 were the rgb channels were used for the last three caputred images, afterwards 9 hour running average was applied to smooth over the predicted wind speeds.
+EfficientNetB0 where the RGB channels were used for the last three caputred images, afterwards 9 hour running average was applied to smooth over the predicted wind speeds.
 Again a 3 fold rotation ensemble was used to generate the final predictions
+Score Root-mean-square Error : 7.5947
