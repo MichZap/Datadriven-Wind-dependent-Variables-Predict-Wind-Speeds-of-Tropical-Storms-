@@ -25,3 +25,6 @@ EfficientNetB0 where the RGB channels were used for the last three caputred imag
 Again a 3 fold rotation ensemble was used to generate the final predictions
 
 Score Root-mean-square Error : 7.5947
+
+Further Comments:
+If the .ipynb do not render you might use https://nbviewer.jupyter.org/ in order to inspect them
