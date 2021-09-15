@@ -29,7 +29,10 @@ Score Root-mean-square Error : 7.5947
 Further Comments:
 
 If the .ipynb files do not render you might use https://nbviewer.jupyter.org/ in order to inspect them.
-Model 1 was trained as a juypter Notebook on google colab and gradient paper space. The orignial ipython files aren't accessible anymore, however under HU_ResNet 3D_18.py  you can find the initial code.
+
+Model 1 was trained as a juypter Notebook on Google Colab and Gradient Paperspace. 
+The orignial ipython files aren't accessible anymore, however under HU_ResNet 3D_18.py  you can find the initial code.
+
 Also by mistake there was a version of model 1 trained using different input sizes this is included in Create Submission-r3d_18-v2.ipynb as well for training this model only the respective train and validation transforms need to by adjusted from 112x112 to 114x114
 
 
